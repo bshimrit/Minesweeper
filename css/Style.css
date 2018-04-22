@@ -1,0 +1,95 @@
+body {
+    /* background-color: pink; */
+    text-align: center;  
+    color: red;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: lightgrey;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 50px
+}
+
+thead {
+    border: 0px;
+}
+
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 1px;   
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+}
+
+.cell {
+    background-image: url(../img/square.png);
+    background-size: contain;
+}
+
+.flag {
+    background-image: url(../img/flag.png);
+    background-size: contain;
+}
+
+.smily-btn{
+    background-color: lightgrey;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+}
+
+.empty {
+    background-image: url(../img/empty.png);
+    background-size: contain;
+}
+.one {
+    background-image: url(../img/one.png);
+    background-size: contain;
+}
+.two {
+    background-image: url(../img/two.png);
+    background-size: contain;
+}
+.three {
+    background-image: url(../img/three.png);
+    background-size: contain;
+}
+.four {
+    background-image: url(../img/four.png);
+    background-size: contain;
+}
+.five {
+    background-image: url(../img/five.png);
+    background-size: contain;
+}
+.six {
+    background-image: url(../img/six.png);
+    background-size: contain;
+}
+.seven {
+    background-image: url(../img/seven.png);
+    background-size: contain;
+}
+.wight {
+    background-image: url(../img/eight.png);
+    background-size: contain;
+}
+.mine {
+    background-image: url(../img/mine.png);
+    background-size: contain;
+}
+
+.mine.mark {
+    background-image: url(../img/minemarked.png);
+    background-size: contain;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shimrit - MineSweeper</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body oncontextmenu="return false;">
+    <div>
+        <input onclick="changeLevel(value)" type="radio" id="beginner"
+            name="contact" value="0" checked="true">
+        <label for="beginner">Beginner</label>
+        <input onclick="changeLevel(value)" type="radio" id="medium"
+            name="contact" value="1">
+        <label for="contactChoice2">Medium</label>
+        <input onclick="changeLevel(value)"type="radio" id="expert"
+            name="contact" value="2">
+        <label for="contactChoice3">Expert</label>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td class="count"></td>        
+                <td class="smily" colspan="2"><button onclick="initGame()" class="smily-btn"></button></td>
+                <td class="time"> time</td>
+            </tr>
+        </thead>
+        <tbody class="board"></tbody>
+    </table>
+    <script src="js/utils.js" ></script>
+    <script src="js/main.js" ></script>
+</body>
+
+</html>
